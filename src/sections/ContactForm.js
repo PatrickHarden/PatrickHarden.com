@@ -1,11 +1,12 @@
 import React from 'react'
-import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap'
+import { Container, Row, Col, Button, Form, FormGroup, Input } from 'reactstrap'
 
 
  export default class ContactForm extends React.Component {
     render() {
         return (
-            <Form>
+            <Form action="https://formspree.io/patch2908@gmail.com"
+            method="POST">
                 <Row>
                     <Col md="6">
                     <FormGroup>
@@ -33,7 +34,7 @@ import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } 
                 <Row>
                     <Col md="12">
                     <FormGroup>
-                        <Input bsSize="lg" type="textarea" name="text" id="contactText" placeholder="How May We Assist You?" />
+                        <Input bsSize="lg" type="textarea" name="text" id="contactText" placeholder="Message" />
                     </FormGroup>
                     </Col>
                 </Row>
