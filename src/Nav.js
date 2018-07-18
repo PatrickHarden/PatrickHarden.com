@@ -43,7 +43,7 @@ import Logo from './images/Screenshot_3.png'
             <Container>
                 <Row>
                     <Col xs="3">
-                        <NavbarBrand href="/"><img src={Logo} /></NavbarBrand>                      
+                        <NavbarBrand href="/">Under Construction</NavbarBrand>                      
                     </Col>
                     <Col xs="9" className="text-right">
                         <NavbarToggler onClick={this.toggle} />
@@ -52,7 +52,7 @@ import Logo from './images/Screenshot_3.png'
                             <NavItem>
                                 <Link to="/" className="nav-link">Home</Link>
                             </NavItem>
-                            <MenuList />
+                            {/* <MenuList /> */}
                             <NavItem>
                                 <Link to="/contact" className="nav-link">Contact</Link>
                             </NavItem>
