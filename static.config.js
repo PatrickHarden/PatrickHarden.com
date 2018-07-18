@@ -1,101 +1,62 @@
 import axios from 'axios'
-import React, { Component } from 'react'
-import { SheetsRegistry } from 'react-jss/lib/jss'
-import JssProvider from 'react-jss/lib/JssProvider'
-import { MuiThemeProvider, createMuiTheme, createGenerateClassName } from 'material-ui/styles'
 
-// Your Material UI Custom theme
-import theme from './src/theme'
+
 
 export default {
-  // siteRoot: 'https://expect3.netlify.com/',
-  getSiteData: () => ({
-    title: 'React Static',
-  }),
+  getSiteData: async () => {
+    const baseURL = 'http://www.expect3.io.php72-38.lan3-1.websitetestlink.com/'
+    const { data: menus } = await axios.get(baseURL + '/index.php/wp-json/wp-api-menus/v2/menus/2')
+    const { data: options } = await axios.get(baseURL + '/index.php/wp-json/wp/v2/options/')
+
+
+    return {
+      title: 'Expect3 Template',
+      // siteRoot: 'https://attorneytemplate.netlify.com/',
+      siteCreator: 'Expect3',
+      siteCreatorURL: 'https://expect3.com',
+      menus,
+      options
+    }
+  },
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    const baseURL = 'http://www.expect3.io.php72-38.lan3-1.websitetestlink.com/'
+    const { data: pages } = await axios.get(baseURL + '/index.php/wp-json/wp/v2/pages?per_page=99')
+    const { data: posts } = await axios.get(baseURL + '/index.php/wp-json/wp/v2/posts?per_page=6')
+
     return [
       {
-        path: '/',
-        component: 'src/containers/Home',
-      },
-      {
-        path: '/about',
-        component: 'src/containers/About',
-      },
-      {
-        path: '/contact',
-        component: 'src/containers/Contact',
-      },
-      {
-        path: '/services',
-        component: 'src/containers/Services',
-      },
-      {
-        path: '/blog',
-        component: 'src/containers/Blog',
+        path: '/blogs',
+        component: 'src/pages/Blog',
         getData: () => ({
           posts,
         }),
         children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          component: 'src/containers/Post',
+          path: `/${post.slug}`,
+          component: 'src/singles/Post',
           getData: () => ({
             post,
           }),
         })),
       },
       {
+        path: '/contact',
+        component: 'src/pages/Contact',
+      },
+      {
+        path: '/',
+        component: 'src/pages/Home',
+        children: pages.map(page => ({
+        path: `/${page.slug}`,
+        component: 'src/pages/Page',
+          getData: () => ({
+            page,
+          }),
+        })),
+      },
+      {
         is404: true,
-        component: 'src/containers/404',
+        component: 'src/pages/404',
       },
     ]
-  },
-  renderToHtml: (render, Comp, meta) => {
-    // Create a sheetsRegistry instance.
-    const sheetsRegistry = new SheetsRegistry()
-
-    // Create a MUI theme instance.
-    const muiTheme = createMuiTheme(theme)
-
-    const generateClassName = createGenerateClassName()
-
-    const html = render(
-      <JssProvider registry={sheetsRegistry} generateClassName={generateClassName}>
-        <MuiThemeProvider theme={muiTheme} sheetsManager={new Map()}>
-          <Comp />
-        </MuiThemeProvider>
-      </JssProvider>
-    )
-
-    meta.jssStyles = sheetsRegistry.toString()
-
-    return html
-  },
-  Document: class CustomHtml extends Component {
-    render () {
-      const {
-        Html, Head, Body, children, renderMeta,
-      } = this.props
-
-      return (
-        <Html>
-          <Head>
-            <meta charSet="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link
-              href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-              rel="stylesheet"
-            />
-            <script async src="https://www.google-analytics.com/analytics.js" />
-            <script async src="/assets/js/autotrack.custom.js" />
-          </Head>
-          <Body>
-            {children}
-            <style id="jss-server-side">{renderMeta.jssStyles}</style>
-          </Body>
-        </Html>
-      )
-    }
-  },
+  }
 }

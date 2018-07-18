@@ -1,5 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'css/styles.css'
+import 'css/mobile.css'
 
 // Your top level component
 import App from './App'
@@ -11,11 +14,10 @@ export default App
 if (typeof document !== 'undefined') {
   window.addEventListener('load', () => {
     const ga = window.ga
-    ga('create', 'UA-34355268-36', 'auto')
+    ga('create', 'UA-34355268-37', 'auto')
 
     ga('require', 'outboundLinkTracker')
     ga('require', 'urlChangeTracker')
-    // Require additional plugins imported in the build:autotrack.
 
     ga('send', 'pageview')
   })
