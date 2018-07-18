@@ -10,10 +10,9 @@ export default {
 
 
     return {
-      title: 'Expect3 Template',
+      title: 'Patrick Harden',
       // siteRoot: 'https://attorneytemplate.netlify.com/',
-      siteCreator: 'Expect3',
-      siteCreatorURL: 'https://expect3.com',
+      siteCreator: 'Patrick Harden',
       menus,
       options
     }

@@ -17,7 +17,7 @@ export default withSiteData(class SiteFooter extends React.Component {
 
         return (
             <footer className="text-center">
-                &copy; 2018 {siteTitle}  |  Built By <a href={siteCreatorURL}>{siteCreator}</a>
+                &copy; 2018 |  Built By <a href="https://www.patrickharden.com/">Patrick Harden</a>
             </footer>
         )
 

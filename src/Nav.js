@@ -43,7 +43,7 @@ import {
             <Container>
                 <Row>
                     <Col xs="3">
-                        <NavbarBrand href="/"><img src={logo} /></NavbarBrand>                      
+                        <NavbarBrand href="/">Under Construction</NavbarBrand>                      
                     </Col>
                     <Col xs="9" className="text-right">
                         <NavbarToggler onClick={this.toggle} />
