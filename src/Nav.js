@@ -17,7 +17,7 @@ import {
   Container,
   Row,
   Col } from 'reactstrap';
-
+import Logo from './images/Screenshot_3.png'
 
  export default withSiteData(class Navigation extends React.Component {
   constructor(props) {
@@ -43,7 +43,7 @@ import {
             <Container>
                 <Row>
                     <Col xs="3">
-                        <NavbarBrand href="/">Under Construction</NavbarBrand>                      
+                        <NavbarBrand href="/"><img src={Logo} /></NavbarBrand>                      
                     </Col>
                     <Col xs="9" className="text-right">
                         <NavbarToggler onClick={this.toggle} />
