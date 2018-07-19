@@ -32,13 +32,6 @@ export default withSiteData(({options}) => (
       <body className="contact" />
     </Helmet>
     {saveCord(options)}
-    <MyMapComponent
-      isMarkerShown
-      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgzgLUiRdYm4wH4xkRaqEXhK-vqMk_VSE&v=3.exp&libraries=geometry,drawing,places"
-      loadingElement={<div style={{ height: `100%` }} />}
-      containerElement={<div style={{ height: `400px` }} />}
-      mapElement={<div style={{ height: `100%` }} />} 
-    />
     <Container>
       <Row>
         <Col xs="12">
@@ -46,6 +39,13 @@ export default withSiteData(({options}) => (
           <ContactForm />
         </Col>
       </Row>
+      <MyMapComponent
+      isMarkerShown
+      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgzgLUiRdYm4wH4xkRaqEXhK-vqMk_VSE&v=3.exp&libraries=geometry,drawing,places"
+      loadingElement={<div style={{ height: `100%` }} />}
+      containerElement={<div style={{ height: `400px` }} />}
+      mapElement={<div style={{ height: `100%` }} />} 
+    />
     </Container>
   </article>
   
