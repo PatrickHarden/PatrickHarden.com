@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600');
 
-body {font-family: 'Roboto', sans-serif; margin: 0; font-size:20px; line-height:1.75rem; font-weight: 100; letter-spacing: 1px;}
+body {font-family: 'Work Sans', sans-serif; margin: 0; font-size:20px; line-height:1.75rem; font-weight: 100; letter-spacing: 1px;}
 div#root {height: 100vh;}
 #site{
   box-sizing: border-box;
