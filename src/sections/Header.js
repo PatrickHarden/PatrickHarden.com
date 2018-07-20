@@ -22,7 +22,7 @@ export default withSiteData(class SiteHeader extends React.Component {
                     {/* <meta name=“web_author” content=“author, expect3.com” /> */}
                     <meta name="robots" content="index, follow" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
-                    <meta name="description" content="Tulsa, Oklahoma Web Developer" />
+                    <meta name="description" content="Front-end Web Developer" />
                     <meta name="keywords" content="Web Developer, Web Designer, React, Wordpress, SEO, SEM, Angular, PHP, Front-end Web Develoepr" />
                     <title>{siteTitle}</title>
                     <link rel="canonical" href={siteRoot} />
