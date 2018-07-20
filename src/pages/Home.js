@@ -21,7 +21,7 @@ import ContactForm from '../sections/ContactForm'
 export default withSiteData(() => (
   <article id="home">
     <Helmet>
-      <body classNameName="home" />
+      <body className="home" />
     </Helmet>
     <section className="hero">
    <div className="container">
