@@ -49,7 +49,7 @@ export default withSiteData(() => (
       <h2 class="secondary-header">Featured Work</h2>
    </div>
    <div class="featured-work-container">
-      <a href="https://github.com/PatrickHarden/React-Static-Bootstrap-Template" class="work-link work-link--50">
+      <a href="https://github.com/PatrickHarden/React-Static-Bootstrap-Template" target="_blank" class="work-link work-link--50">
          <div class="work-link-wrapper">
             <img class="work-link-image" src="images/wordpressscreen.png" />
             <div class="work-link-content">
@@ -57,7 +57,7 @@ export default withSiteData(() => (
             </div>
          </div>
       </a>
-      <a href="https://github.com/PatrickHarden/React-Static-Website-Builder" class="work-link work-link--50">
+      <a href="https://github.com/PatrickHarden/React-Static-Website-Builder" target="_blank" class="work-link work-link--50">
          <div class="work-link-wrapper">
             <img class="work-link-image" src="images/awbscreen.png" />
             <div class="work-link-content">
@@ -65,7 +65,7 @@ export default withSiteData(() => (
             </div>
          </div>
       </a>
-      <a href="https://github.com/PatrickHarden/expect3" class="work-link work-link--50">
+      <a href="https://github.com/PatrickHarden/expect3" target="_blank" class="work-link work-link--50">
          <div class="work-link-wrapper">
             <img class="work-link-image" src="images/ex3screen.png" />
             <div class="work-link-content">
@@ -73,7 +73,7 @@ export default withSiteData(() => (
             </div>
          </div>
       </a>
-      <a href="https://github.com/PatrickHarden/lawyermarketingusa" class="work-link work-link--50">
+      <a href="https://github.com/PatrickHarden/lawyermarketingusa" target="_blank" class="work-link work-link--50">
          <div class="work-link-wrapper">
             <img class="work-link-image" src="images/lmsscreen.png" />
             <div class="work-link-content">
