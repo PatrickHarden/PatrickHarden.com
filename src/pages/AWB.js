@@ -11,7 +11,7 @@ export default () => (
          <header class="hero-header">
             <h1 class="project-label">React-static website generator</h1>
              {/* <a href="https://expect3.com" class="btn project-title mRight" target="_blank">Visit site</a> */}
-             <a href="https://github.com/PatrickHarden/expect3" class="btn project-title" target="_blank">View source</a>
+             <a href="https://github.com/PatrickHarden/React-Static-Website-Builder" class="btn project-title" target="_blank">View source</a>
          </header>
       </div>
       <div class="lede-content">

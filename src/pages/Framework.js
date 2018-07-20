@@ -10,7 +10,7 @@ export default () => (
    <div class="project-hero">
          <header class="hero-header">
             <h1 class="project-label">React-static Wordpress Framework</h1>
-             <a href="https://github.com/PatrickHarden/expect3" class="btn project-title" target="_blank">View Source</a>
+             <a href="https://github.com/PatrickHarden/React-Static-Bootstrap-Template" class="btn project-title" target="_blank">View Source</a>
          </header>
       </div>
       <div class="lede-content">
