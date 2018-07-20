@@ -147,7 +147,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     transition:color .25s ease
 }
 .social-list__item-link:active,.social-list__item-link:focus,.social-list__item-link:hover{
-    color:#2fe0c5
+    color:#ff8481
 }
 .project{
     padding-bottom:8em
@@ -225,7 +225,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     }
 }
 .lede a{
-    color:#3cdab4
+    color:#ff8481
 }
 .lede-list{
     margin:0;
@@ -287,7 +287,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     padding-left:5%;
     -ms-flex-pack:start;
     justify-content:flex-start;
-    background:#3cdab4
+    background:#ff8481
 }
 @media screen and (min-width:1600px){
     .project-link.project-link--first{
@@ -300,7 +300,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     background:#dabeca
 }
 .project-link.project-link--last{
-    background:#2fe0c5;
+    background:#ff8481;
     padding-right:5%;
     -ms-flex-pack:end;
     justify-content:flex-end
@@ -332,7 +332,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
 .project-button{
     display:block;
     margin-top:2em;
-    color:#3cdab4;
+    color:#ff8481;
     transition:color .15s ease-in-out
 }
 .project-button:hover{
@@ -360,7 +360,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     }
 }
 .step-body a{
-    color:#3cdab4
+    color:#ff8481
 }
 .hero .container{
     position:relative;
@@ -385,14 +385,14 @@ section:nth-of-type(6) .column:nth-of-type(2){
     }
 }
 .hero__link{
-    color:#2fe0c5;
+    color:#ff8481;
     transition:color .25s ease
 }
 .hero__link:active,.hero__link:focus,.hero__link:hover{
     color:#5d5d5d
 }
 .hero__link--second{
-    color:#FF8481;
+    color:#ff9491;
     transition:color .25s ease
 }
 .hero__link--second:active,.hero__link--second:focus,.hero__link--second:hover{
@@ -493,7 +493,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     transition:color .25s ease
 }
 .nav__list-item:active,.nav__list-item:focus,.nav__list-item:hover{
-    color:#2fe0c5
+    color:#ff8481
 }
 .logo-circle,.logo-letter,.logo-shadow,.logo-triangle{
     animation-fill-mode:forwards;
@@ -716,7 +716,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     transform:translateY(-3px);
     border-color:transparent;
     box-shadow:0 1px 6px rgba(93,93,93,.16);
-    background:linear-gradient(90deg,#2fe0c5,#3bdcc4,#2fe0c5);
+    background:linear-gradient(90deg,#ff8481,#3bdcc4,#ff8481);
     color:#fff
 }
 .work__list-item:active .work-detail,.work__list-item:active .work-title,.work__list-item:focus .work-detail,.work__list-item:focus .work-title,.work__list-item:hover .work-detail,.work__list-item:hover .work-title{
@@ -737,7 +737,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     -ms-flex:3 1 100%;
     flex:3 1 100%;
     margin-bottom:0;
-    color:#3cdab4;
+    color:#ff8481;
     letter-spacing:0;
     line-height:1.2;
     font-size:2.6rem
@@ -797,7 +797,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     font-family:'Lato';
 }
 #site .navbar-dark .navbar-nav .nav-link, #site .navbar-dark .navbar-nav .nav-link:active {color:#5d5d5d ;}
-.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:focus {color: #FF8481 !important; transition-duration: 0.5s;}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:focus {color: #ff9491 !important; transition-duration: 0.5s;}
 .navbar-brand img {
     height: 60px;
     position: relative;
@@ -818,12 +818,12 @@ section:nth-of-type(6) .column:nth-of-type(2){
 a:hover {text-decoration:none; color:#5d5d5d}
 #contact {font-size:3.8rem;}
 #contact input, #contact textarea, #contact .btn {font-size:2.1rem;}
-#contact .btn {background-color:#FF8481; border-color:transparent;}
+#contact .btn {background-color:#ff9491; border-color:transparent;}
 .row {min-width:100%;}
 .fixed-top {min-height:80px;}
 .navbar-dark .navbar-brand:hover {color:#333}
 .work-link-image {width: 80%; margin:0 auto;}
-.work-link-wrapper { background:#FF8481;padding-top:60px; border-radius: 10px; }
+.work-link-wrapper { background:#ff9491;padding-top:60px; border-radius: 10px; }
 .hero .container {margin-top:30px;}
 #contact h1 {margin-top:30px; margin-bottom:30px;}
 #home .work {padding-bottom:4rem;}
