@@ -17,7 +17,7 @@ export default withSiteData(class SiteFooter extends React.Component {
 <footer id="contact" class="footer">
    <div class="container">
       <h2 class="secondary-header">Looking to start a project?</h2>
-      <a class="hero__link" href="mailto: drdestefanis@gmail.com">Let's talk.</a>
+      <a class="hero__link" href="mailto: patch2908@gmail.com">Let's talk.</a>
    </div>
    <div class="container">
       <ul class="social-list">
