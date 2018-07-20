@@ -59,7 +59,7 @@ export default withSiteData(() => (
       </a>
       <a href="https://github.com/PatrickHarden/React-Static-Website-Builder" target="_blank" class="work-link work-link--50">
          <div class="work-link-wrapper">
-            <img class="work-link-image" src="images/awbscreen.png" />
+            <img class="work-link-image" src="images/awbscreen2.png" />
             <div class="work-link-content">
                <h3 class="link-content__header">React-static Website Generator</h3>
             </div>
