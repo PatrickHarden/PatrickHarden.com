@@ -53,7 +53,7 @@ import Logo from './images/Screenshot_3.png'
                                 <Link to="/" className="nav-link">Home</Link>
                             </NavItem>
                             <NavItem>
-                                <a href="images/ResumeSingle.pdf" target="_blank" className="nav-link">Resume</a>
+                                <Link to="/#work" className="nav-link">Work</Link>
                             </NavItem>
                             {/* <MenuList /> */}
                             <NavItem>

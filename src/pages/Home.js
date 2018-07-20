@@ -49,38 +49,38 @@ export default withSiteData(() => (
       <h2 className="secondary-header">Featured Work</h2>
    </div>
    <div className="featured-work-container">
-   <a href="https://github.com/PatrickHarden/expect3" target="_blank" className="work-link work-link--50">
+   <Link to="/expect3" className="work-link work-link--50">
          <div className="work-link-wrapper">
             <img className="work-link-image" src="images/ex3screen.png" />
             <div className="work-link-content">
                <h3 className="link-content__header">Expect3</h3>
             </div>
          </div>
-      </a>
-      <a href="https://github.com/PatrickHarden/React-Static-Bootstrap-Template" target="_blank" className="work-link work-link--50">
+      </Link>
+      <Link to="/React-Static-Wordpress" className="work-link work-link--50">
          <div className="work-link-wrapper">
             <img className="work-link-image" src="images/wordpressscreen.png" />
             <div className="work-link-content">
                <h3 className="link-content__header">React-static + Wordpress Framework</h3>
             </div>
          </div>
-      </a>
-      <a href="https://github.com/PatrickHarden/React-Static-Website-Builder" target="_blank" className="work-link work-link--50">
+      </Link>
+      <Link to="/React-Static-Website-Generator" className="work-link work-link--50">
          <div className="work-link-wrapper">
             <img className="work-link-image" src="images/awbscreen2.png" />
             <div className="work-link-content">
                <h3 className="link-content__header">React-static Website Generator</h3>
             </div>
          </div>
-      </a>
-      <a href="https://github.com/PatrickHarden/lawyermarketingusa" target="_blank" className="work-link work-link--50">
+      </Link>
+      <Link to="/lms" className="work-link work-link--50">
          <div className="work-link-wrapper">
             <img className="work-link-image" src="images/lmsscreen.png" />
             <div className="work-link-content">
                <h3 className="link-content__header">Lawyer Marketing Services</h3>
             </div>
          </div>
-      </a>
+      </Link>
    </div>
 
 </section>

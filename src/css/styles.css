@@ -183,7 +183,7 @@ section:nth-of-type(6) .column:nth-of-type(2){
     margin-bottom:1em;
     letter-spacing:3px;
     text-transform:uppercase;
-    font-size:1.5rem;
+    font-size:1.8rem;
     font-weight:300
 }
 .project-title{
@@ -830,3 +830,21 @@ a:hover {text-decoration:none; color:#5d5d5d}
 .work-link-content {border-top-left-radius: 0; border-top-right-radius: 0;}
 #contact form > .row {margin-bottom:15px;}
 #home{margin-top:-30px;}
+
+.hero-header > .step-content {padding:0;}
+.mRight {margin-right:45px;}
+#contact input {padding-top:1rem; padding-bottom:1rem;}
+.btn.project-title {background:#5d5d5d; color:#fff; font-size:2.6rem;border-radius:6%; padding:.275rem 1.35rem; font-weight:300;letter-spacing: 1px;}
+/* .btn.project-title.mRight {background:#5d5d5d; color:#fff;}
+.btn.project-title.mRight:hover {background:#29c6b2; color:#fff;} */
+.btn.project-title:hover {background:#2fe0c5; color:#5d5d5d}
+.work-link-wrapper:hover {background:#2fe0c5;}
+.project-hero {justify-content:left;}
+/* .project-hero.Jcenter {justify-content:center;} */
+.lede-content {margin:-30px 0 90px}
+.project-label {margin-bottom:1.5em;  font-weight: 600;}
+.container > .project-hero {margin-top:-45px;}
+.step-body.mTop {margin-top:45px; margin-bottom:-15px;}
+.sTop {margin-top:90px;}
+.ssTop {margin-bottom:-60px;}
+.nTop {margin-top:-30px;}

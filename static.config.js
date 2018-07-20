@@ -42,6 +42,22 @@ export default {
         component: 'src/pages/Contact',
       },
       {
+        path: '/expect3',
+        component: 'src/pages/Ex3',
+      },
+      {
+        path: '/lms',
+        component: 'src/pages/Lms',
+      },
+      {
+        path: '/React-Static-Wordpress',
+        component: 'src/pages/Framework',
+      },
+      {
+        path: '/React-Static-Website-Generator',
+        component: 'src/pages/AWB',
+      },
+      {
         path: '/work',
         component: 'src/pages/Work',
       },
