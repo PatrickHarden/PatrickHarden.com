@@ -807,9 +807,9 @@ section:nth-of-type(6) .column:nth-of-type(2){
     border: none;
     padding: 0;
 }
-.navbar-dark .navbar-brand {margin-top:1px; font-size:17px; color:#5d5d5d; }
+.navbar-dark .navbar-brand {margin-top:3px; font-size:17px; color:#5d5d5d; }
 #site .navbar-dark .navbar-nav .nav-link {margin-left:15px;}
-.content {margin-top:90px;}
+.content {margin-top:120px;}
 .hero__employer img {display:inline-block; max-width:280px; filter:grayscale(100%); margin-right:60px;}
 #lms {filter:invert(100%) grayscale(100%);position: relative; top:-12px}
 #ex3 { margin-top:30px}
