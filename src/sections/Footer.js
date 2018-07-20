@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link, SiteData, withSiteData } from 'react-static'
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser'
-import {Helmet} from "react-helmet";
-
+import { Container, Row, Col, Button, Form, FormGroup, Input } from 'reactstrap'
 
 export default withSiteData(class SiteFooter extends React.Component {
 
@@ -16,9 +14,21 @@ export default withSiteData(class SiteFooter extends React.Component {
         const siteCreatorURL = this.props.siteCreatorURL
 
         return (
-            <footer className="text-center">
-                &copy; 2018 |  Built By <a href="https://www.patrickharden.com/">Patrick Harden</a>
-            </footer>
+<footer id="contact" class="footer">
+   <div class="container">
+      <h2 class="secondary-header">Looking to start a project?</h2>
+      <a class="hero__link" href="mailto: drdestefanis@gmail.com">Let's talk.</a>
+   </div>
+   <div class="container">
+      <ul class="social-list">
+         <li class="social-list__item"><a href="https://github.com/PatrickHarden" class="social-list__item-link">GitHub</a></li>
+         <li class="social-list__item"><a href="https://www.linkedin.com/in/patrick-harden-299a97154/" class="social-list__item-link">LinkedIn</a></li>
+         <li class="social-list__item"><Link to="/work" class="social-list__item-link">Work</Link></li>
+         <li class="social-list__item"><Link to="/contact" class="social-list__item-link">Message</Link></li>
+         <li class="social-list__item"><a href="mailto: patch2908@gmail.com" class="social-list__item-link">Email</a></li>
+      </ul>
+   </div>
+</footer>
         )
 
     }

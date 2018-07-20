@@ -42,6 +42,10 @@ export default {
         component: 'src/pages/Contact',
       },
       {
+        path: '/work',
+        component: 'src/pages/Work',
+      },
+      {
         path: '/',
         component: 'src/pages/Home',
         children: pages.map(page => ({

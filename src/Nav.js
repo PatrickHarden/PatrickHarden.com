@@ -39,11 +39,11 @@ import Logo from './images/Screenshot_3.png'
 
     return (
       <div className="navWrapper">
-        <Navbar color="dark" dark fixed="top" expand="md">
+        <Navbar color="white" dark fixed="top" expand="md">
             <Container>
                 <Row>
                     <Col xs="3">
-                        <NavbarBrand href="/">Under Construction</NavbarBrand>                      
+                        <NavbarBrand href="/">Patrick Harden</NavbarBrand>                      
                     </Col>
                     <Col xs="9" className="text-right">
                         <NavbarToggler onClick={this.toggle} />
@@ -51,6 +51,9 @@ import Logo from './images/Screenshot_3.png'
                             <Nav className="ml-auto" navbar>
                             <NavItem>
                                 <Link to="/" className="nav-link">Home</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link to="/work" className="nav-link">Work</Link>
                             </NavItem>
                             {/* <MenuList /> */}
                             <NavItem>
