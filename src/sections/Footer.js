@@ -21,8 +21,9 @@ export default withSiteData(class SiteFooter extends React.Component {
    </div>
    <div class="container">
       <ul class="social-list">
-         <li class="social-list__item"><a href="https://github.com/PatrickHarden" class="social-list__item-link">GitHub</a></li>
-         <li class="social-list__item"><a href="https://www.linkedin.com/in/patrick-harden-299a97154/" class="social-list__item-link">LinkedIn</a></li>
+         <li class="social-list__item"><a href="https://github.com/PatrickHarden" target="_blank" class="social-list__item-link">GitHub</a></li>
+         <li class="social-list__item"><a href="https://www.linkedin.com/in/patrick-harden-299a97154/" target="_blank" class="social-list__item-link">LinkedIn</a></li>
+         <li class="social-list__item"><a href="iamges/ResumeSingle.pdf" target="_blank" class="social-list__item-link">Resume</a></li>
          {/* <li class="social-list__item"><Link to="/work" class="social-list__item-link">Work</Link></li> */}
          <li class="social-list__item"><Link to="/contact" class="social-list__item-link">Message</Link></li>
          <li class="social-list__item"><a href="mailto: patch2908@gmail.com" class="social-list__item-link">Email</a></li>
