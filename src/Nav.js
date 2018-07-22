@@ -38,10 +38,10 @@ import Logo from './images/Screenshot_3.png'
     const logo = this.props.options.companyLogo
 
     return (
-        <div className="navWrapper">
-        <Navbar color="white" dark fixed="top" expand="lg">
+      <div className="navWrapper">
+        <Navbar color="white" dark fixed="top" expand="md">
             <Container>
-                <Row className="navRow">
+                <Row>
                     <Col xs="3">
                         <NavbarBrand href="/">Patrick Harden</NavbarBrand>                      
                     </Col>
@@ -50,14 +50,14 @@ import Logo from './images/Screenshot_3.png'
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <Link to="/" className="nav-link" onClick={this.toggle}>Home</Link>
+                                <Link to="/" className="nav-link" onClick={this.toggle} >Home</Link>
                             </NavItem>
-                            {/* <MenuList toggle={this.toggle} /> */}
                             <NavItem>
                                 <Link to="/#work" className="nav-link" onClick={this.toggle}>Work</Link>
                             </NavItem>
+                            {/* <MenuList /> */}
                             <NavItem>
-                                <Link to="/contact" className="nav-link nav-phone" onClick={this.toggle}>Contact</Link>
+                                <Link to="/contact" className="nav-link" onClick={this.toggle}>Contact</Link>
                             </NavItem>
                             </Nav>
                         </Collapse>
