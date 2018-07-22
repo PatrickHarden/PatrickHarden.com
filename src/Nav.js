@@ -43,7 +43,7 @@ import Logo from './images/Screenshot_3.png'
             <Container>
                 <Row className="navRow">
                     <Col xs="3">
-                        <NavbarBrand href="/"><img src={logo} /></NavbarBrand>                      
+                        <NavbarBrand href="/">Patrick Harden</NavbarBrand>                      
                     </Col>
                     <Col xs="9" className="text-right">
                         <NavbarToggler onClick={this.toggle} />
