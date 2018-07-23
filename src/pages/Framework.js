@@ -14,7 +14,7 @@ export default () => (
          </header>
       </div>
       <div class="lede-content">
-        <p class="step-body nTop">Although React-static is a radically fast framework, it in itself wasn't adequate enough for our clients' needs. The clients required access to a content management system in order to alter forms, blogs, staff, ect. However, determined not to be bound to the existentianal dread of becoming a wordpress developer, I pioneered a framework of my own, combining the speed and expandability of react-static with the cms functionality of wordpress. </p>
+        <p class="step-body nTop">Although React-static is a radically fast framework, it in itself wasn't adequate enough for our clients' needs. The clients required access to a content management system in order to alter forms, blogs, staff, ect. However, determined not to be binded to wordpress, I pioneered a framework of my own, combining the speed and expandability of react-static with the cms functionality of wordpress. </p>
         <p class="step-body mTop">React-staic excels at generating static sites from JSON data. Check out how the JSON data is pulled from wordpress and dispersed to the sub-components.</p>
      </div>
 
