@@ -851,6 +851,10 @@ a:hover {text-decoration:none; color:#5d5d5d}
 #brace-editor {margin:0 auto;}
 .navbar-expand-md .navbar-collapse {height:38px !important}
 
+@media screen and (max-width:768px){
+    .navbar-expand-md .navbar-collapse {height:auto !important}
+}
+
 @media screen and (max-width:480px){
     .navbar-dark .navbar-toggler {margin-top:12px;}
     .navbar-toggler-icon {filter:invert(100%)}
