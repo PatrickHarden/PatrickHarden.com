@@ -864,4 +864,5 @@ a:hover {text-decoration:none; color:#5d5d5d}
     .framework .btn.project-title, .awb .btn.project-title {margin-bottom:45px; margin-top:-15px;}
     .mRight {margin-bottom:15px;}
     #contact .row > .col-12 {margin-bottom:-420px;}
+    #lms {top:0; margin:15px 0;}
 }
