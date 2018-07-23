@@ -861,7 +861,7 @@ a:hover {text-decoration:none; color:#5d5d5d}
         padding: 2em 0 0em;
     }
     #site .content {margin-top:95px;}
-    .framework .btn.project-title, .awb .btn.project-title {margin-bottom:45px; margin-top:-15px;}
+    .framework .btn.project-title, .awb .btn.project-title {margin-bottom:60px; margin-top:-5px;}
     .mRight {margin-bottom:15px;}
     #contact .row > .col-12 {margin-bottom:-420px;}
     #lms {top:0; margin:15px 0;}
