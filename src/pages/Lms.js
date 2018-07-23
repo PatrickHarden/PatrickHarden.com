@@ -1,10 +1,14 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
 import { withRouteData, Link } from 'react-static'
+import {Helmet} from "react-helmet";
 //
 
 export default () => (
   <div>
+        <Helmet>
+      <body className="lms" />
+    </Helmet>
 <section>
    <div class="container">
       <div class="project-hero Jcenter">
