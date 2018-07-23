@@ -14,7 +14,7 @@ export default App
 if (typeof document !== 'undefined') {
   window.addEventListener('load', () => {
     const ga = window.ga
-    ga('create', 'UA-34355268-37', 'auto')
+    ga('create', 'UA-122841310-1', 'auto')
 
     ga('require', 'outboundLinkTracker')
     ga('require', 'urlChangeTracker')
