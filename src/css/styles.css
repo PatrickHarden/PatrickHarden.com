@@ -848,6 +848,7 @@ a:hover {text-decoration:none; color:#5d5d5d}
 .sTop {margin-top:90px;}
 .ssTop {margin-bottom:-60px;}
 .nTop {margin-top:-45px;}
+#brace-editor {margin:0 auto;}
 
 @media screen and (max-width:480px){
     .navbar-dark .navbar-toggler {margin-top:12px;}
