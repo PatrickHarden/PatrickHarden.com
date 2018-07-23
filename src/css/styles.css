@@ -856,5 +856,5 @@ a:hover {text-decoration:none; color:#5d5d5d}
     .navbar-toggler-icon:before {display:none;}
     .navbar-collapse {padding:0;}
     .navbar-expand-md .navbar-nav .nav-item .nav-link {padding:25px 0 !important}
-    .col-9 .navbar-collapse {padding:0;}
+    .col-9 .navbar-collapse, .text-right.col-9 {padding:0;}
 }
