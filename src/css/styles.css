@@ -853,4 +853,5 @@ a:hover {text-decoration:none; color:#5d5d5d}
     .navbar-dark .navbar-toggler {margin-top:12px;}
     .navbar-toggler-icon {filter:invert(100%)}
     .navbar-dark .navbar-brand {margin-top:18px;}
+    .navbar-toggler-icon:before {display:none;}
 }
