@@ -854,4 +854,6 @@ a:hover {text-decoration:none; color:#5d5d5d}
     .navbar-toggler-icon {filter:invert(100%)}
     .navbar-dark .navbar-brand {margin-top:18px;}
     .navbar-toggler-icon:before {display:none;}
+    .navbar-collapse {padding:0;}
+    .navbar-expand-md .navbar-nav .nav-link {padding:25px 0 !important}
 }
