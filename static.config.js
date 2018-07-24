@@ -11,7 +11,7 @@ export default {
 
     return {
       title: 'Patrick Harden',
-      // siteRoot: 'https://attorneytemplate.netlify.com/',
+      siteRoot: 'https://www.patrickharden.com/',
       siteCreator: 'Patrick Harden',
       menus,
       options
