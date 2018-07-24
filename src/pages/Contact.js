@@ -1,8 +1,7 @@
 import React from 'react'
 import { withRouteData, Link, SiteData, withSiteData } from 'react-static'
-import { Container, Row, Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 import {Helmet} from "react-helmet";
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 import ContactForm from '../sections/ContactForm'
 
 

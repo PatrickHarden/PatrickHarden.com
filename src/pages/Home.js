@@ -2,19 +2,6 @@ import React from 'react'
 import { withSiteData, Link } from 'react-static'
 import { Helmet } from "react-helmet";
 //
-import {
-  Container,
-  Row,
-  Col,
-  Button,
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-import LazyHero from 'react-lazy-hero';
-import ContactForm from '../sections/ContactForm'
 
 
 

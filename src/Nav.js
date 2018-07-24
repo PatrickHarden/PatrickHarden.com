@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link, SiteData, withSiteData } from 'react-static'
-import MenuList from 'MenuItems'
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser'
 import {
   Collapse,
   Navbar,
@@ -17,7 +15,7 @@ import {
   Container,
   Row,
   Col } from 'reactstrap';
-import Logo from './images/Screenshot_3.png'
+
 
  export default withSiteData(class Navigation extends React.Component {
   constructor(props) {
