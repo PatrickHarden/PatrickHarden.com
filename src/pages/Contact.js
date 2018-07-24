@@ -5,33 +5,12 @@ import {Helmet} from "react-helmet";
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 import ContactForm from '../sections/ContactForm'
 
-var lat = ''
-var long = ''
 
-function saveCord(options) {
-  lat = parseFloat(options.companyLocationLat)
-  long = parseFloat(options.companyLocationLong)
-}
-
-const MyMapComponent = withScriptjs(withGoogleMap((props) =>
-  <GoogleMap
-    defaultZoom={13}
-    defaultCenter={{ lat: lat, lng: long }}
-    options={{
-      scrollwheel: false,
-    }}
-  >
-    {props.isMarkerShown && <Marker position={{ lat: lat, lng: long }} />}
-  </GoogleMap>
-))
-
-
-export default withSiteData(({options}) => (
+export default () => (
   <article id="contact">
     <Helmet>
       <body className="contact" />
     </Helmet>
-    {saveCord(options)}
     <Container>
       <Row>
         <Col xs="12">
@@ -39,14 +18,7 @@ export default withSiteData(({options}) => (
           <ContactForm />
         </Col>
       </Row>
-      <MyMapComponent
-      isMarkerShown
-      googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgzgLUiRdYm4wH4xkRaqEXhK-vqMk_VSE&v=3.exp&libraries=geometry,drawing,places"
-      loadingElement={<div style={{ height: `100%` }} />}
-      containerElement={<div style={{ height: `400px` }} />}
-      mapElement={<div style={{ height: `100%` }} />} 
-    />
     </Container>
   </article>
   
-))
+)
