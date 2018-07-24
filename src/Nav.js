@@ -35,7 +35,6 @@ import Logo from './images/Screenshot_3.png'
   }
 
   render() {
-    const logo = this.props.options.companyLogo
 
     return (
       <div className="navWrapper">
