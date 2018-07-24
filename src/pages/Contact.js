@@ -1,5 +1,4 @@
 import React from 'react'
-import { withRouteData, Link, SiteData, withSiteData } from 'react-static'
 import { Container, Row, Col } from 'reactstrap'
 import {Helmet} from "react-helmet";
 import ContactForm from '../sections/ContactForm'

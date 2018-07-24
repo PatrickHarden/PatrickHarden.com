@@ -1,5 +1,4 @@
 import React from 'react'
-import { Container, Row, Col } from 'reactstrap';
 import { withRouteData, Link } from 'react-static'
 import {Helmet} from "react-helmet";
 import { render } from 'react-dom';
