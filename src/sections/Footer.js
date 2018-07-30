@@ -14,11 +14,11 @@ export default withSiteData(class SiteFooter extends React.Component {
 
         return (
 <footer id="contact" class="footer">
-   <div class="container">
+   <div class="containerr">
       <h2 class="secondary-header">Looking to start a project?</h2>
       <a class="hero__link" href="mailto: patch2908@gmail.com">Let's talk.</a>
    </div>
-   <div class="container">
+   <div class="containerr">
       <ul class="social-list">
          <li class="social-list__item"><a href="https://github.com/PatrickHarden" target="_blank" class="social-list__item-link">GitHub</a></li>
          <li class="social-list__item"><a href="https://www.linkedin.com/in/patrick-harden-299a97154/" target="_blank" class="social-list__item-link">LinkedIn</a></li>

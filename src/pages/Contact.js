@@ -9,14 +9,14 @@ export default () => (
     <Helmet>
       <body className="contact" />
     </Helmet>
-    <Container>
+    <div className="containerr">
       <Row>
         <Col xs="12">
           <h1>Contact</h1>
           <ContactForm />
         </Col>
       </Row>
-    </Container>
+    </div>
   </article>
   
 )

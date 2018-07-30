@@ -37,7 +37,7 @@ import {
     return (
       <div className="navWrapper">
         <Navbar color="white" dark fixed="top" expand="md">
-            <Container>
+            <div className="containerr">
                 <Row>
                     <Col xs="3">
                         <NavbarBrand href="/">Patrick Harden</NavbarBrand>                      
@@ -60,7 +60,7 @@ import {
                         </Collapse>
                     </Col>
                 </Row>
-            </Container>
+            </div>
         </Navbar>
       </div>
     );
