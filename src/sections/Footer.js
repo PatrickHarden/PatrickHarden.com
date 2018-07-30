@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, SiteData, withSiteData } from 'react-static'
-import { Container, Row, Col, Button, Form, FormGroup, Input } from 'reactstrap'
 
 export default withSiteData(class SiteFooter extends React.Component {
 
