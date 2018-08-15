@@ -38,7 +38,7 @@ import { Container, Row, Col, Button, Form, FormGroup, Input } from 'reactstrap'
                     </FormGroup>
                     </Col>
                 </Row>
-                <Button>Submit</Button>
+                <Button><input type="submit" value="Send"></Button>
             </Form>
         )}
  }
