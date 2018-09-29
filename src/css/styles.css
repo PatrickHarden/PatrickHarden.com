@@ -845,6 +845,7 @@ a:hover {text-decoration:none; color:#5d5d5d}
 .nTop {margin-top:-45px;}
 #brace-editor {margin:0 auto;}
 .navbar-expand-md .navbar-collapse {height:38px !important}
+#contact button > input {background:transparent; padding-left:2rem; padding-right:2rem;}
 
 @media screen and (max-width:1368px){
     #home {margin-top:-30px;}
