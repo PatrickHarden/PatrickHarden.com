@@ -13,7 +13,7 @@ export default () => (
 
     <section className="hero">
       <div className="containerr">
-        <h1 className="hero__title">I’m Patrick Harden, a <Link to="/work" className="hero__Link hero__link--second">designer</Link> and <a className="hero__link" target="_blank" href="https://github.com/PatrickHarden">web developer</a> living in Tulsa, currently working as a freelancer.</h1>
+        <h1 className="hero__title">I’m Patrick Harden, a <Link to="/work" className="hero__Link hero__link--second">designer</Link> and <a className="hero__link" target="_blank" href="https://github.com/PatrickHarden">web developer</a> living in Fort Worth, currently working as a freelancer.</h1>
       </div>
       <div className="containerr containerr--wrap">
         <div className="hero__employer hero__employer--steelseries">
