@@ -31,6 +31,10 @@ export default {
         component: 'src/pages/Framework',
       },
       {
+        path: '/React-Static-Wordpress-v2',
+        component: 'src/pages/Framework2',
+      },
+      {
         path: '/React-Static-Website-Generator',
         component: 'src/pages/AWB',
       },

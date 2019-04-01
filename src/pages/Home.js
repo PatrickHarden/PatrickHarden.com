@@ -37,6 +37,14 @@ export default () => (
         <h2 className="secondary-header">Featured Work</h2>
       </div>
       <div className="featured-work-containerr">
+      <Link to="/React-Static-Wordpress-v2" className="work-link work-link--50">
+          <div className="work-link-wrapper">
+            <img className="work-link-image" src="images/halcyon.png" />
+            <div className="work-link-content">
+              <h3 className="link-content__header">React-static Wordpress Framework v2</h3>
+            </div>
+          </div>
+        </Link>
         <Link to="/expect3" className="work-link work-link--50">
           <div className="work-link-wrapper">
             <img className="work-link-image" src="images/ex3screen.png" />
@@ -45,11 +53,11 @@ export default () => (
             </div>
           </div>
         </Link>
-        <Link to="/React-Static-Wordpress" className="work-link work-link--50">
+      <Link to="/React-Static-Wordpress" className="work-link work-link--50">
           <div className="work-link-wrapper">
             <img className="work-link-image" src="images/wordpressscreen.png" />
             <div className="work-link-content">
-              <h3 className="link-content__header">React-static + Wordpress Framework</h3>
+              <h3 className="link-content__header">React-static Wordpress Framework</h3>
             </div>
           </div>
         </Link>
