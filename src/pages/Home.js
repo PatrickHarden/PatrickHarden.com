@@ -19,8 +19,8 @@ export default () => (
         <div className="hero__employer hero__employer--steelseries">
           <h3 className="employer__label">Previously:</h3>
           <img id="imag" src="images/imaglogo.png" />
+          <img id="am" src="images/am.png" />
           <img id="ex3" src="images/ex3New1Logo.png" />
-          <img id="lms" src="images/lmsLogo.png" />
           <img id="seed" src="images/SeedLogo.svg" />
         </div>
       </div>
