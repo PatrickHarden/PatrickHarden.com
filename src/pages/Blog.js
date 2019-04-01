@@ -8,10 +8,9 @@ import { Container,
          CardImg,
          CardText,
          CardBody,
-         CardTitle,
-         CardSubtitle } from 'reactstrap';
+         CardTitle, } from 'reactstrap';
 
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser'
+import ReactHtmlParser from 'react-html-parser'
 import {Helmet} from "react-helmet";
 //
 

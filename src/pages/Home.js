@@ -1,5 +1,5 @@
 import React from 'react'
-import { withSiteData, Link } from 'react-static'
+import { Link } from 'react-static'
 import { Helmet } from "react-helmet";
 //
 
@@ -18,6 +18,7 @@ export default () => (
       <div className="containerr containerr--wrap">
         <div className="hero__employer hero__employer--steelseries">
           <h3 className="employer__label">Previously:</h3>
+          <img id="imag" src="images/imaglogo.png" />
           <img id="ex3" src="images/ex3New1Logo.png" />
           <img id="lms" src="images/lmsLogo.png" />
           <img id="seed" src="images/SeedLogo.svg" />
